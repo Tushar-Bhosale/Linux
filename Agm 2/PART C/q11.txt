@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Enter a number:"
+
+while true;
+do
+    read num
+    
+    if ((num < 0)); then
+        break
+    fi
+    
+    square=$((num * num))
+    echo "Square of $num is $square"
+done
+

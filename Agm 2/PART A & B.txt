@@ -1,0 +1,107 @@
+PART A
+
+1. echo "Hello, World!" 
+	prints "Hello, World!" to the terminal
+
+2. name="Productive"
+	Assigns the value "Productive" to the variable `name`
+
+3. touch file.txt
+	This creates an empty file named `file.txt`
+
+4. ls -a
+	lists all files in the current directory including hidden files
+
+5. rm file.txt
+	Removes the file named `file.txt`
+
+6. cp file1.txt file2.txt
+	Copies the contents of `file1.txt` to `file2.txt`
+
+7. mv file.txt /path/to/directory/
+	Moves the file `file.txt` to the directory specified
+
+8. chmod 755 script.sh
+	Changes the permissions of `script.sh` to give the owner read, write, and execute permissions and gives read and execute permissions to others
+
+9. grep "pattern" file.txt
+	Searches for the string "pattern" in the file `file.txt`
+
+10. kill PID
+	Terminate the process with the specified PID (process ID)
+
+11. mkdir mydir && cd mydir && touch file.txt && echo "Hello, World!" > file.txt && cat file.txt
+	Creates a directory named `mydir`, navigates into it, creates a file named `file.txt`, writes "Hello, World!" to `file.txt`, and then prints the contents of `file.txt`
+
+12. ls -l | grep ".txt"
+	lists all files in the current directory in long format and then shows only the lines containing ".txt"
+
+13. cat file1.txt file2.txt | sort | uniq
+	Sorts the content of both the files and then removes duplicate lines
+
+14. ls -l | grep "^d"
+	lists all files in the current directory in long format and shows only directories
+
+15. grep -r "pattern" /path/to/directory/
+	Recursively searches for the string "pattern" in all files under the specified directory
+
+16. cat file1.txt file2.txt | sort | uniq -d
+	Sorts the content of both the files and then prints only the duplicate lines
+
+17. chmod 644 file.txt
+	Changes the permissions of `file.txt` to give the owner read and write permissions and gives read permission to others
+
+18. cp -r source_directory destination_directory
+	Copies the contents of `source_directory` to `destination_directory` including all subdirectories and files.
+
+19. find /path/to/search -name "*.txt"
+	This searches for all files with a ".txt" extension under the specified directory
+
+20. chmod u+x file.txt
+	It adds execute permission for the owner of `file.txt`
+
+21. echo $PATH
+	prints the value of the variable `PATH`
+================================================================================================================
+
+PART B
+
+
+Identify True or False
+
+1. ls is used to list files and directories in a directory.
+   - True
+
+2. mv is used to move files and directories.
+   - True
+
+3. cd is used to copy files and directories.
+   - False
+
+4. pwd stands for "print working directory" and displays the current directory.
+   - True
+
+5. grep is used to search for patterns in files.
+   - True
+
+6. chmod 755 file.txt gives read, write, and execute permissions to the owner, and read and execute permissions to group and others.
+   - True
+
+7. mkdir -p directory1/directory2 creates nested directories, creating directory2 inside directory1 if directory1 does not exist.
+   - True
+
+8. rm -rf file.txt deletes a file forcefully without confirmation.
+   - True
+
+Identify the Incorrect Commands:
+
+1. chmodx is used to change file permissions
+	Correct command is `chmod`
+2. cpy is used to copy files and directories.
+	Correct command is `cp`
+3. mkfile is used to create a new file.
+	Correct command is `touch`
+4. catx is used to concatenate files.
+	Correct command is `cat`
+5. rn is used to rename files.
+	Correct command is `mv`
